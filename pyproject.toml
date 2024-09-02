@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "house-price-prediction"
+version = "0.1.0"
+description = "House Prices Prediction Kaggle Challenge leveraging advanced regression techniques"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+scikit-learn = "^1.5.1"
+xgboost = "^2.1.1"
+lightgbm = "^4.5.0"
+seaborn = "^0.13.2"
+matplotlib = "^3.9.2"
+pandas = "^2.2.2"
+mlxtend = "^0.23.1"
+numpy = "^2.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
